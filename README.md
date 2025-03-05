@@ -11,13 +11,13 @@
 
 ### considerations
 - bypass crawler restrictions (captcha, user-agent blocking, crawler loops)
-- 
 
 ### finding hidden webpages
 - URL fuzzing
 - wordlists
 
 ### web scraping
+Current web crawling tools primarily focuses on extracting text data from the websites. Our goal is to enhance crawling capabilities by
 - organizing and displaying collected web data
-- use of AI/vision tools to collect non-text data
--
+- using LLM/OCR to collect non-text data, including images, videos, and tables
+- support multilingual content
